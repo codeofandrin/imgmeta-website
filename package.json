@@ -2,7 +2,6 @@
   "name": "imgmeta-website",
   "version": "0.1.0a",
   "description": "The website of imgmeta, a tool to organize your photos.",
-  "homepage": "https://codeofandrin.github.io/imgmeta-website",
   "author": {
     "name": "Andrin Schaller",
     "url": "https://github.com/codeofandrin"
@@ -13,9 +12,7 @@
     "typecheck": "tsc --noEmit --composite false",
     "dev": "vite",
     "build": "npm run typecheck && vite build",
-    "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "prettier": "^3.3.3",
@@ -33,7 +30,6 @@
     "eslint": "^9.13.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
-    "gh-pages": "^6.2.0",
     "globals": "^15.11.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15",
