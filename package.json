@@ -1,0 +1,40 @@
+{
+  "name": "imgmeta-website",
+  "version": "0.1.0a",
+  "description": "The website of imgmeta, a tool to organize your photos.",
+  "author": {
+    "name": "Andrin Schaller",
+    "url": "https://github.com/codeofandrin"
+  },
+  "license": "SEE LICENSE FILE",
+  "scripts": {
+    "format": "prettier --write --list-different .",
+    "typecheck": "tsc --noEmit --composite false",
+    "dev": "vite",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite-plugin-svgr": "^4.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.11.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.11.0",
+    "vite": "^5.4.10"
+  }
+}
