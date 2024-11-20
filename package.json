@@ -12,7 +12,8 @@
     "typecheck": "tsc --noEmit --composite false",
     "dev": "vite",
     "build": "npm run typecheck && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "bump": "npm version -m 'Bump version to %s'"
   },
   "dependencies": {
     "prettier": "^3.3.3",
