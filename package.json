@@ -13,7 +13,8 @@
     "dev": "vite",
     "build": "npm run typecheck && vite build",
     "preview": "vite preview",
-    "bump": "npm version -m 'Bump version to %s'"
+    "bump": "npm version -m 'Bump version to %s' $npm_config_vers",
+    "bump:dev": "npm version $npm_config_vers --git-tag-version false && git commit -a -m 'Bump version to development'"
   },
   "dependencies": {
     "prettier": "^3.3.3",
