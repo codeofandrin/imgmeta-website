@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,bold,italic,black,medium,semibold,extrabold,thin,light");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    @apply scroll-smooth bg-zinc-950 text-zinc-100;
+    font-family: Inter, Calibri, Arial, Helvetica, sans-serif;
+}
+
+:root,
+body,
+#root {
+    @apply h-full w-full;
+}
