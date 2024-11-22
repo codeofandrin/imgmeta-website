@@ -5,10 +5,9 @@
 @tailwind utilities;
 
 :root {
-    @apply scroll-smooth bg-zinc-950 text-zinc-100;
+    @apply scroll-smooth bg-zinc-950 text-zinc-100 px-5 xs:px-0;
     font-family: Inter, Calibri, Arial, Helvetica, sans-serif;
 }
-
 :root,
 body,
 #root {
